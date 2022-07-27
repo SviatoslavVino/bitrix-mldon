@@ -1,0 +1,262 @@
+
+@media (min-width:1201px){.book{font-size:14pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:21pt;}}
+@media (max-width:1200px){.book{font-size:14pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:15pt;}}
+@media (max-width:992px){.book{font-size:12pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:15pt;}}
+@media (max-width:768px){.book{font-size:8pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:15pt;}}
+@media (max-width:576px){.book{font-size:7pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:12pt;}}
+@media (min-width:992px){.navbar-brand{display:none}}
+
+
+.mn-cnt {
+	max-width: 1600px;
+	margin: auto;
+	background: #faebd7;
+	padding: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+body {
+	/* background: #ccc url(../img/5399.webp) no-repeat fixed; */
+	font-family: 'Roboto Condensed',sans-serif;
+	padding-bottom: 3%;
+	background-size: cover;
+}
+
+.obiava, .ftrmenu, h1, .service {
+	text-align: center;
+}
+
+.obiava h2, .obiava b {
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: red;
+}
+
+.obiava p {
+	text-align: center;
+	font-size: 20px;
+}
+
+.slider {
+	max-width: 1024px;
+}
+.navbar--box-shadow {
+	box-shadow: 0px 5px 10px -1px #212529;
+}
+p {
+	margin-bottom: 0.5rem !important;
+}
+.carousel-indicators {
+	bottom: 0;
+}
+
+.footer {
+	background: #87cefa url(../img/ftr-bg.webp);
+	padding: 2%;
+	color: #fff;
+	height: 200px;
+	background-size: cover;
+}
+
+.carousel-caption {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	left: 0;
+}
+
+.content {
+	padding: 2%;
+	font-size: 14pt;
+	text-align: justify;
+}
+
+.active {
+	background: rgba(112,133,133,0.438);
+	border-radius: 5%;
+}
+
+#book-ttl {
+	background: #20b2aa;
+	color: #f5f5f5;
+}
+
+.book {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border-collapse: collapse;
+	margin: auto;
+	white-space: nowrap;
+}
+
+.book th {
+	text-align: center;
+	padding: 1%;
+}
+
+.book td {
+	padding: 1%;
+}
+
+.header img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.tasks {
+	list-style: url(../img/gal.webp);
+}
+
+.ftrmenu li {
+	display: inline;
+	padding: 1%;
+}
+
+.ftrmenu li i {
+	font-size: 25pt;
+}
+
+.ftrmenu li a, .ftrmenu li a:visited {
+	color: #fff;
+}
+
+.ftrmenu li a:hover {
+	color: #ff0;
+	transition: 0.8s;
+}
+
+.label {
+	font: italic 10pt Arial;
+	color: #080;
+}
+
+.form-control, .form-select {
+	font-size: 1.75em !important;
+}
+
+#contacts {
+	list-style: none;
+}
+
+#buy {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding: 2%;
+	background: #fff;
+}
+
+.m-b-20 {
+	margin-bottom: 20px;
+}
+
+.quote {
+	position: relative;
+}
+
+.quote blockquote {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 14px;
+	font-style: italic;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.quote blockquote p {
+	color: #fff;
+	padding: 25px 30px 45px 30px;
+}
+
+.quote blockquote:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 90px;
+	width: 0;
+	height: 0;
+	border-top: 0.83333em solid #ccc;
+	border-right: 0.86667em solid transparent;
+}
+
+.quote.green blockquote {
+	background: #32c5d2;
+}
+
+.quote.green blockquote:before {
+	border-top-color: #32c5d2;
+}
+
+.quote.dark blockquote {
+	background: #555;
+}
+
+.quote.dark blockquote:before {
+	border-top-color: #555;
+}
+
+.quote-footer {
+	margin: 10px 0;
+}
+
+.quote-footer .quote-author-img img {
+	float: left;
+	max-width: 90px;
+	width: 90px;
+	height: 90px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: -5px;
+	margin-top: -40px;
+	position: relative;
+	z-index: 1;
+	padding: 5px;
+	background: #fff;
+}
+
+.quote-footer h4 {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.quote-footer p {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.col-form-label {
+	white-space: nowrap;
+}
+
+.spanred {
+	color: red;
+}
+
+.ref:hover, .ref:visited {
+	text-decoration: none;
+}
+
+.cr-ttl {
+	font-weight: 700;
+	text-align: center;
+}
+
+.cr-twn > .active, .contact-list, .list-group-item-info {
+	background: transparent;
+}
+
+.card-city {
+	margin-bottom: 10%;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34,60,80,0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34,60,80,0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34,60,80,0.2);
+}
+
+.red_newyear p {
+	color: red;
+	font-size: 24px;
+}
