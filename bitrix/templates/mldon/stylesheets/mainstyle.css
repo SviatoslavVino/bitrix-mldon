@@ -6,6 +6,15 @@
 @media (max-width:576px){.book{font-size:7pt;}.data-blk{background-color:LightCyan;text-align:center;font-size:12pt;}}
 @media (min-width:992px){.navbar-brand{display:none}}
 
+.error__title{
+	font-size: 50px;
+	color: #f4373b;
+}
+
+
+.error a{
+	color: #00bf8f;
+}
 
 .mn-cnt {
 	max-width: 1600px;
