@@ -167,4 +167,9 @@
 	false
 );?>
     </body>
+            <?if($APPLICATION->GetCurDir() === '/book/'):?>
+            <script src="<?=SITE_TEMPLATE_PATH?>/scripts/js/calend.js"></script>
+            <script src="<?=SITE_TEMPLATE_PATH?>/scripts/js/check.js"></script>
+            <script src="<?=SITE_TEMPLATE_PATH?>/scripts/js/chooseCountry.js"></script>
+            <?endif;?>
 </html>

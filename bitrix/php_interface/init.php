@@ -49,16 +49,11 @@ $MESS["INFO_FOR_CLIENTS"] = 'Информация клиентам';
 $MESS["OUR_CONTACTS"] = 'Наши контакты';
 
 
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
-$MESS["AT"] = 'В';
+$MESS["ABOUT_US_CAPS"] = 'О нас';
+$MESS["PREVIOUS"] = 'Предыдущий';
+$MESS["NEXT"] = 'Следующий';
+$MESS["SERVICES"] = 'Услуги';
+$MESS["DIRECTIONS"] = 'Направления';
 
-
-
+$MESS["MORE"] = 'Подробнее';
 ?>

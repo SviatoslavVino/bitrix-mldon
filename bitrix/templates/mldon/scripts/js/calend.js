@@ -1,5 +1,5 @@
-    $(function() {
-        $('#date').datepicker({
+    $(function calendar() {
+        $('#date_calendar').datepicker({
             range: 'single', // режим - выбор периода
             numberOfMonths: 1,
             dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],

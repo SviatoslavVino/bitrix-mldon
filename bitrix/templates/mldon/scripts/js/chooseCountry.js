@@ -7,6 +7,7 @@ let countries = {
   'Крым':['Севастополь','Ялта','Симфирополь']
 
 };
+
 let standartListCountry = ['Латвия','Польша','Литва','ДНР','Россия','Крым'];
 
 
@@ -20,6 +21,7 @@ let possibleKreame = {
   'Россия':['Ростов',],
 };
 let KreameListCountry = ['ДНР','Россия'];
+console.log(KreameListCountry);
 const selectCountryFrom = document.querySelector('#country_from');
 const optionCountryFrom = selectCountryFrom.querySelectorAll('option');
 const selectCityFrom = document.querySelector('#city_from');
@@ -124,3 +126,4 @@ selectCountryInput.addEventListener('change', (event) => {
 
 
 })
+
