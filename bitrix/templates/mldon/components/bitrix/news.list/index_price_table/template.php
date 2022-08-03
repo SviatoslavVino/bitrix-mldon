@@ -44,7 +44,7 @@ $this->setFrameMode(true);
                            class="text-nowrap btn btn-primary"
                            id="btn5"
                         >
-                            <?=GetMessage('BOOK')?>
+                            <?=GetMessage('TO_BOOK')?>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  width="28"
                                  height="26"

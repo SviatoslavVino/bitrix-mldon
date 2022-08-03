@@ -28,9 +28,9 @@ $this->setFrameMode(true);
                 aria-expanded="true"
                 aria-label="Toggle navigation"
         >
-<!--            <span class="navbar-toggler-icon">
+           <span class="navbar-toggler-icon">
 
-            </span>-->
+            </span>
         </button>
         <div class="collapse navbar-collapse"
             id="navbarTogglerDemo01"
